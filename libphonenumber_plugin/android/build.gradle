@@ -23,7 +23,9 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
+    
+    namespace 'com.example.libphonenumber_plugin'
+    
     defaultConfig {
         minSdkVersion 16
     }
