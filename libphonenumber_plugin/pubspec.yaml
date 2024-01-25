@@ -17,7 +17,10 @@ dependencies:
 
   libphonenumber_web: ^0.2.0+1
 
-  libphonenumber: ^2.0.2
+  libphonenumber:
+    git:
+      url: https://github.com/emostar/flutter-libphonenumber
+      ref: master
 
 dev_dependencies:
   flutter_test:
